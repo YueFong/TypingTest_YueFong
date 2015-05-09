@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>/Users/jufdata/Desktop/TypingTest/TypingTest.jar</jar>
+  <outfile>/Users/jufdata/Desktop/TypingTest/TypingTest.exe</outfile>
+  <errTitle>沒有java，請下載並安裝java</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>/Users/jufdata/Desktop/TypingTest/TypingICO.ico</icon>
+  <singleInstance>
+    <mutexName>打字測驗</mutexName>
+    <windowTitle>打字測驗</windowTitle>
+  </singleInstance>
+  <jre>
+    <path>..\..\java\jre</path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.5.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>jreOnly</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <versionInfo>
+    <fileVersion>1.0.0.0</fileVersion>
+    <txtFileVersion>1.0.0.0</txtFileVersion>
+    <fileDescription>青年日報打字測驗專用程式</fileDescription>
+    <copyright>鍾岳峰開發設計2015年5月9日</copyright>
+    <productVersion>1.0.0.0</productVersion>
+    <txtProductVersion>1.0.0.0</txtProductVersion>
+    <productName>打字測驗程式</productName>
+    <companyName>YDNS</companyName>
+    <internalName>TypingTest</internalName>
+    <originalFilename>TypingTest.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
